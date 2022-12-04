@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  background: brown;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  background: rgb(208, 208, 45);
+  padding: 20px;
+  border-radius: 10px;
+}
+#inp,
+#btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 80%;
+  height: 25px;
+  margin-bottom: 20px;
+  font-family: cursive;
+  font-weight: bold;
+  color: brown;
+}
+
+#btn {
+  padding: 10px;
+  width: 30%;
+  height: 50px;
+  margin-bottom: 10px;
+  background: brown;
+  color: #fff;
+}
+
+#btn:hover {
+  cursor: pointer;
+}
+
+.message {
+  width: 90%;
+  height: 30px;
+  font-family: cursive;
+  font-weight: bold;
+  padding: 5px 20px;
+  border-radius: 5px;
+  border: 1px dashed brown;
+  outline: none;
+  margin: 5px;
+  background: #fff;
+  color: brown;
+}
